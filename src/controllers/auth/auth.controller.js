@@ -31,7 +31,8 @@ export const register = async (req, res) => {
       email,
       name,
       status: 'free',
-      password: hashedPassword,
+      passwor: hashedPassword,
+      verified: true
     });
 
     // Ambil data package "free" dari subscription-packages
@@ -73,7 +74,7 @@ export const register = async (req, res) => {
 
     // Kirim email verifikasi
     const emailToken = generateEmailToken(payload);
-    await sendVerificationEmail(email, emailToken);
+    // await sendVerificationEmail(email, emailToken);
 
     // Update last verification email sent timestamp
     await userDatasource.updateLastVerificationEmailSent(user._id, new Date());

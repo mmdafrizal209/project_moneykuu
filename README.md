@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # KU-Money Backend API
 
 Backend untuk aplikasi manajemen keuangan pribadi berbasis SaaS. Aplikasi ini memungkinkan user untuk mengelola akun keuangan (bank, e-wallet, cash), kategori income/expense, dan transaksi keuangan.
@@ -2084,3 +2085,6 @@ Made with ❤️ for personal finance management
 =======
 # project_moneyyku
 >>>>>>> de857bd0292c7bc8e493725a6ea877bd4b20fac8
+=======
+# project_moneykuu
+>>>>>>> cd6f6e9456212953a2263375071b171d69c03e30
